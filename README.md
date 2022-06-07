@@ -1,34 +1,13 @@
-# Foobar
+# Hakkında
 
 CSS, Javascript ve HTML kullanılarak tasarlanan netflixin anasayfası.
 
-## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Katkı
 
-```bash
-pip install foobar
-```
+Pull requestler kabul edilir. Büyük değişiklikler için lütfen önce neyi değiştirmek istediğinizi tartışmak üzere bir konu açın.
 
-## Usage
+Lütfen testleri uygun şekilde güncellediğinizden emin olun.
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
+## Lisans
 [MIT](https://choosealicense.com/licenses/mit/)
