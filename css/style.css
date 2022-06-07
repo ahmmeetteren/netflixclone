@@ -49,6 +49,9 @@ body{
     border:none!important;
     color:#fff!important;
 }
+.startButton:hover{
+    opacity: 0.9!important;
+}
 .signUp p:first-child{
     font-size: 50px;
 }
