@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TV Programlarını Çevrimiçi İzleyin, Filmleri Çevrimiçi İzleyin</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f6190b6e7c.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
 
+<body>
+    <section class="showcase">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 mt-4 ms-4 z-index">
+                    <img src="img/logo.png" alt="Netflix" class="netflixLogo">
+                </div>
+                <div class="col-md col-sm-2"></div>
+                <div class="col-md-4 z-index">
+                    <button class="btn mt-md-4 me-md-5 float-end signIn">Oturum Aç</button>
+                </div>
+            </div>
+            <div class="row flex-column signUp">
+                <div class="col-md-8 d-flex justify-content-center align-items-center flex-column z-index">
+                    <p class="text-white fw-bold w-75 text-center">Sınırsız film, dizi ve çok daha fazlası.</p>
+                    <p class="text-white fs-3">İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.</p>
+                    <p class="text-white fs-5">İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek için e-posta adresinizi girin.
+                    </p>
+                    <div class="input-group w-75">
+                        <input placeholder="E-posta adresi" type="text" class="form-control py-3 rounded-0">
+                        <div class="input-group-text m-0 p-0 bg-body">
+                            <button class="btn rounded-0 startButton w-100 h-100 px-5">Başlayın</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
