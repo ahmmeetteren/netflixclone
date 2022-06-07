@@ -1,0 +1,67 @@
+:root{
+    --danger-color:#e50914;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.showcase {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url('https://i.ibb.co/vXqDmnh/backgroundlogo.jpg') no-repeat center center/cover;
+}
+.showcase::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: inset 30px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+.netflixLogo {
+    width: 150px;
+}
+
+.signUp{
+    display: flex!important;
+    justify-content: center!important;
+    align-items:center!important;
+    height: 85vh;
+}
+.signIn {
+    background-color:var(--danger-color)!important;
+    color:#fff!important;
+    border:none!important;
+}
+.startButton{
+    background-color:var(--danger-color)!important;
+    border:none!important;
+    color:#fff!important;
+}
+.signUp p:first-child{
+    font-size: 50px;
+}
+
+/*Flex Column*/
+
+.flex-column{
+    flex-direction: column!important;
+}
+
+/*z-index*/
+
+.z-index{
+    z-index:2!important;
+}
+
